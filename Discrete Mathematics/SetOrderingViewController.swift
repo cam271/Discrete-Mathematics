@@ -21,7 +21,12 @@ class SetOrderingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    // Enables segueing back to menu
+    @IBAction func backButton(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
     /*
     // MARK: - Navigation
 
