@@ -49,9 +49,6 @@ class BooleanLogicViewController: UIViewController {
     }
     
     
-    
-  
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -62,8 +59,13 @@ class BooleanLogicViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // enables segue back to menu
+    @IBAction func backButton(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
   
-   
+    
+    
 
     
 }
