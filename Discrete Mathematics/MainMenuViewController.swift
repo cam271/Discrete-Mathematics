@@ -25,10 +25,8 @@ class MainMenuViewController: UIViewController, UITableViewDataSource, UITableVi
         super.viewDidLoad()
         
         self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        
-    
-
     }
+    
     
     
     // Gets the number of rows based off of String count
@@ -48,13 +46,6 @@ class MainMenuViewController: UIViewController, UITableViewDataSource, UITableVi
         // String to label
         cell.textLabel?.text = self.items[indexPath.row]
         
-        
-        /*
-        if indexPath.row == 0
-        {
-            
-        }
-*/
         return cell
     }
     
@@ -63,24 +54,18 @@ class MainMenuViewController: UIViewController, UITableViewDataSource, UITableVi
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
     {
         if indexPath.row == 0 {
-            self.performSegueWithIdentifier("booleanLogicSegue", sender: self)
+        self.performSegueWithIdentifier("booleanLogicSegue", sender: self)
+            
         }
-        
+     
         if indexPath.row == 1 {
-            self.performSegueWithIdentifier("vennDiagramSegue", sender: self)
+        self.performSegueWithIdentifier("vennDiagramSegue", sender: self)
         }
         
         if indexPath.row == 2 {
-            self.performSegueWithIdentifier("setOrdereringSegue", sender: self)
+        self.performSegueWithIdentifier("setOrdereringSegue", sender: self)
         }
+       
     }
     
-   
-   
-    
-    
-    
- 
-    
-    
-}
+}  // end class
