@@ -7,17 +7,17 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>DC25A453-8493-47BE-82CB-43C554B1094C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Discrete Mathematics</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6467843D01D966BF053714E575A4B48875A0FDC2</key>
+		<key>E2B5C40B456CDF31AAB652137AB7E016D7BAB9D0</key>
 		<string>https://github.com/MessC/Discrete-Mathematics.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Discrete Mathematics.xcodeproj</string>
+	<string>Discrete Mathematics.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6467843D01D966BF053714E575A4B48875A0FDC2</key>
+		<key>E2B5C40B456CDF31AAB652137AB7E016D7BAB9D0</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6467843D01D966BF053714E575A4B48875A0FDC2</string>
+	<string>E2B5C40B456CDF31AAB652137AB7E016D7BAB9D0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6467843D01D966BF053714E575A4B48875A0FDC2</string>
+			<string>E2B5C40B456CDF31AAB652137AB7E016D7BAB9D0</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Discrete%20Mathematics</string>
 		</dict>

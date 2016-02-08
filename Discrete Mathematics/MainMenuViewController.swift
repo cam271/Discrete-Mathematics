@@ -36,10 +36,13 @@ class MainMenuViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     
+   
+    
+    
     // Names the cells and places disclosure indicator type
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        var cell:UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("cell") as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
         
         cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         
